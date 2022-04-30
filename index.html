@@ -1,25 +1,59 @@
-<html>
+<!DOCTYPE html>
+<html lang="de">
   <head>
     <meta charset="utf-8" />
-    <title>Contact me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Streaming</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
+  <!-- <body style="background-image: url(img/bg1.jpg);"> -->
   <body>
-    <h1>My Contact details</h1>
-    <p>My Fictional Adress</p>
-    <p>123445 67990898</p>
-    <p>hoggle@ooble.de</p>
-    <form action="mailto:djbj1@web.de" method="post" enctype="text/plain">
-      <hr>
-      <label>Your Name</label><br>
-      <input type="text" name="name" , value="" /> <br /><br />
-      <label >Your Email</label><br>
-      <input type="email" name="email" , value="" /> <br /><br />
+         
+      <!-- <div class="playlist_container"  id="container">
+        <div id="divPlayerMain">
+          <div id="divPlayerTitle"><h3 class="Titel">-</h3></div>
+          <div id="divPlayer">
+            <audio id="player" src="" preload="none" controls></audio>
+          </div>
+        </div>
+        <div class="song" id="0">
+          <img class="btn" src="" alt="Bild" />
+          <h3>Überschrift</h3>
+          <p>Text</p>
+        </div> -->
+     
+        <div class="container"  id="main_container">
+        <!-- ZEILE 1 - pLayer -->
+        <div class="row">
+          <div class="col-1" id="divPlayerMain">
+            <div class="row"> 
+              <div class="col-2" id="divPlayerTitle"><h3 class="Titel">-</h3></div>
+              <div class="col-2" id="divPlayer">
+                <audio id="player" src="/sound/falsch.wav" preload="none" controls></audio>
+              </div>
+            </div>
+          </div>
+        </div>  
+         <!-- ab ZEILE 2 (Sender)-->
+        <div class="row" id="list_container">
+          <div class="song" id="0">
+            <img class="btn" src="" alt="Bild" />
+          <h3>Überschrift</h3>
+          <p>Text</p>
+          </div>
 
-      <label for="textarea1">Your Message:</label><br />
-      <textarea name="message" id="" cols="30" rows="10"></textarea
-      ><br /><br />
+          
+        </div>  
+      </div>
+      
+    </div>
 
-      <input type="submit" name="" , value="Submit" />
-    </form>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.0.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
+
+<script></script>
